@@ -6,6 +6,8 @@ To convert a GeoJSON tile to a vector-tile-spec tile, we need to specify layers 
 
 For this process is dependent on the data schema, this specification defines a convension to inject such process.
 
+I got this idea while developing [binarian](https://github.com/hfu/binarian/).
+
 ## basics
 stratify.js provides a function that returns the first paramenter of [vtpbf](https://github.com/mapbox/vt-pbf).fromGeojsonVt() taking a GeoJSON of a tile. 
 
