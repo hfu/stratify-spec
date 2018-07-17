@@ -15,7 +15,7 @@ The first parameter of vtpbf.fromGeojsonVt() is [an object mapping layer names t
 
 ## use example
 ```node
-const modify = require('./stratify.js')
+const stratify = require('./stratify.js')
 /// ...
   vtpbf.fromGeojsonVt(stratify(geojson))
 /// ...
