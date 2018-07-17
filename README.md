@@ -19,7 +19,7 @@ const modify = require('./stratify.js')
 /// ...
 ```
 
-## define example
+# define example
 ```node
 // stratify.js
 module.exports = geojson => {
@@ -27,5 +27,5 @@ module.exports = geojson => {
 }
 ```
 
-## actual use of this specifications
+# actual use of this specifications
 todo
