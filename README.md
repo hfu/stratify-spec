@@ -30,4 +30,5 @@ module.exports = geojson => {
 ```
 
 ## actual use of this specifications
-todo
+- [binarian](https://github.com/hfu/binarian)
+- [refuel](https://github.com/hfu/refuel)
