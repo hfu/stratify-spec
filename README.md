@@ -9,7 +9,7 @@ For this process is dependent on the data schema, this specification defines a c
 I got this idea while developing [binarian](https://github.com/hfu/binarian/).
 
 ## basics
-stratify.js provides a function that returns the first paramenter of [vtpbf](https://github.com/mapbox/vt-pbf).fromGeojsonVt() taking a GeoJSON of a tile. 
+stratify.js provides a function that returns a hash-like object which has layer names as keys and GeoJSON FeatureCollection as values. This return value is similar to the first paramenter of [vtpbf](https://github.com/mapbox/vt-pbf).fromGeojsonVt(), but the value is not an internal expression of binary tile but plain old GeoJSON. The parameter of the function is a GeoJSON FeatureCollection covering a tile. 
 
 The first parameter of vtpbf.fromGeojsonVt() is [an object mapping layer names to geojson-vt-created vector tile objects](https://github.com/mapbox/vt-pbf/blob/master/index.js#L24).
 
